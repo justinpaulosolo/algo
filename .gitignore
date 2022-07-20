@@ -1,2 +1,6 @@
 # ignores lsp config
 jsconfig.json
+
+/codetalks
+
+/practice
