@@ -1,6 +1,7 @@
 /* ---- HASH TABLE ---- */
 
-class HashTable {
+// Using Obj
+class HashTable2 {
     constructor() {
         this.values = {};
         this.length = 0;
@@ -34,8 +35,9 @@ class HashTable {
     };
 }
 
+
 // create object type hash table
-const ht = new HashTable();
+const ht = new HashTable2();
 
 ht.add("Los Angeles", "818");
 ht.add("San Diego", "619");
@@ -43,3 +45,5 @@ ht.add("Irvine", "949");
 
 console.log(ht.search("Los Angeles"));
 console.log(ht);
+
+
