@@ -6,3 +6,6 @@ jsconfig.json
 /practice
 
 /workshop
+
+*.out
+/.vscode
